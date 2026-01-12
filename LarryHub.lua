@@ -114,7 +114,7 @@ buttons[3].MouseButton1Click:Connect(function()
 	if not savedCF then return end
 	local _, hrp = getChar()
 	local tweenInfo = TweenInfo.new(
-		0.5, -- duração do tween em segundos
+		0.1, -- duração do tween em segundos
 		Enum.EasingStyle.Linear,
 		Enum.EasingDirection.Out
 	)
